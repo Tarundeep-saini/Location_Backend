@@ -1,5 +1,5 @@
 {
     "env":{
-        "JWT_KEY":"token_conf_key"
+       
     }
 }
