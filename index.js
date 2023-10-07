@@ -48,7 +48,7 @@ console.log(err);
 mongoose
   .connect(`mongodb+srv://tarundeepsaini037:Testing1234@location.in8fipa.mongodb.net/Locations?retryWrites=true&w=majority`)
   .then(() => {
-    app.listen(5000);
+    app.listen( process.env.PORT || 5000);
     console.log("Server Created");
   })
   .catch(err=>{
