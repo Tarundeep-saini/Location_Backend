@@ -46,9 +46,9 @@ console.log(err);
 });
 
 mongoose
-  .connect(`mongodb+srv://tarundeepsaini037:${process.env.DB_PASS}@location.in8fipa.mongodb.net/Locations?retryWrites=true&w=majority`)
+  .connect(`${process.env.DB_URL}`)
   .then(() => {
-    app.listen( process.env.PORT || 5000);
+    app.listen(5000);
     console.log("Server Created");
   })
   .catch(err=>{
