@@ -1,6 +1,6 @@
 {
     "env":{
-       DB_URL:"",
+       "DB_URL":"",
      "JWT_KEY":"token_conf_key"
         
     }
